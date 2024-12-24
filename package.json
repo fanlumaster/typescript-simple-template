@@ -1,0 +1,17 @@
+{
+  "name": "typescriptsimpletemplate",
+  "version": "1.0.0",
+  "description": "Just a simple TS template.",
+  "license": "ISC",
+  "author": "Fany Full",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "test": "node dist/test/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
